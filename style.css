@@ -275,10 +275,12 @@ body{
 .sidebar.active ul li .sub-menu a {
     margin-top: -1px;
     background-color: #1d1b31;
+    border-radius: 0;
 }
 
 .sidebar.active ul li .sub-menu a:hover {
     background-color: #fff;
+    border-radius: .6rem;
 }
 
 .sidebar.active.open ul li .sub-menu {
