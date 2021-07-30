@@ -267,8 +267,6 @@ body{
 
 .sidebar.active ul li .sub-menu{
     display: none;
-    padding: 6px 6px 14px 140px;
-    background-color: #1d1b31;
     height: 130px;
     margin-top: -1px;
 
@@ -276,6 +274,11 @@ body{
 
 .sidebar.active ul li .sub-menu a {
     margin-top: -1px;
+    background-color: #1d1b31;
+}
+
+.sidebar.active ul li .sub-menu a:hover {
+    background-color: #fff;
 }
 
 .sidebar.active.open ul li .sub-menu {
